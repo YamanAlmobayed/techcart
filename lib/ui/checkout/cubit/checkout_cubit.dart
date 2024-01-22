@@ -1,5 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:techcart/repository/techcart_repository.dart';
+import 'package:techcart/ui/cart/cubit/cart_cubit.dart';
 
 part 'checkout_state.dart';
 
@@ -55,6 +56,7 @@ class CheckoutCubit extends Cubit<CheckoutState> {
     required String deliveryMethod,
     required int totalPrice,
     required List<int?> carts,
+    required CartCubit cartCubit,
   }) async {
     emit(PlaceOrdersLoading());
     try {
@@ -65,6 +67,7 @@ class CheckoutCubit extends Cubit<CheckoutState> {
         totalPrice: totalPrice,
         carts: carts,
       );
+      await cartCubit.deleteCartWhileCheckouting();
 
       emit(PlaceOrdersSuccess());
     } catch (e) {

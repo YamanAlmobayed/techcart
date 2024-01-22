@@ -1,4 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:techcart/repository/models/cart_model.dart';
@@ -20,13 +21,24 @@ class OrderProductList extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(15.0),
-                child: Image(
-                  image: CachedNetworkImageProvider(product.product!.photo!),
-                  height: 198.0.w,
-                  width: 198.0.w,
-                  fit: BoxFit.contain,
+              SizedBox(
+                height: 180.0.w,
+                width: 200.0.w,
+                child: ConditionalBuilder(
+                  condition: product.product!.photo != null,
+                  builder: (context) => ClipRRect(
+                    borderRadius: BorderRadius.circular(15.0),
+                    child: Image(
+                      image:
+                          CachedNetworkImageProvider(product.product!.photo!),
+                      height: 198.0.w,
+                      width: 198.0.w,
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                  fallback: (context) => const Center(
+                    child: Text('No Image'),
+                  ),
                 ),
               ),
               SizedBox(

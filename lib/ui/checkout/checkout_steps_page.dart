@@ -15,13 +15,13 @@ class CheckoutStepsPage extends StatefulWidget {
 class _CheckoutStepsPageState extends State<CheckoutStepsPage> {
   final _formkey1 = GlobalKey<FormState>();
   final _formkey2 = GlobalKey<FormState>();
-  final _streetController = TextEditingController(text: 'dasd');
-  final _cityController = TextEditingController(text: 'dasd');
-  final _countryController = TextEditingController(text: 'dasd');
-  final _nameOnCardController = TextEditingController(text: 'dasd');
-  final _cardNumberController = TextEditingController(text: 'dasd');
-  final _expiryController = TextEditingController(text: 'dasd');
-  final _cvvController = TextEditingController(text: 'dasd');
+  final _streetController = TextEditingController();
+  final _cityController = TextEditingController();
+  final _countryController = TextEditingController();
+  final _nameOnCardController = TextEditingController();
+  final _cardNumberController = TextEditingController();
+  final _expiryController = TextEditingController();
+  final _cvvController = TextEditingController();
   final _cardNumberFocusNode = FocusNode();
   final _expiryDateFocusNode = FocusNode();
 
