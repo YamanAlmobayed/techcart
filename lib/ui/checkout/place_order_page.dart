@@ -204,7 +204,7 @@ class PlaceOrderPage extends StatelessWidget {
                           current is PlaceOrdersSuccess ||
                           current is PlaceOrdersError,
                       builder: (context, state) {
-                        if (state is PlaceOrdersError) {
+                        if (state is PlaceOrdersLoading) {
                           return const Center(
                             child: CircularProgressIndicator(),
                           );
