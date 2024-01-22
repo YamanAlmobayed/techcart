@@ -173,6 +173,7 @@ class PlaceOrderPage extends StatelessWidget {
               ),
             ),
             Container(
+              height: 150.0.w,
               color: const Color.fromARGB(112, 100, 180, 246),
               padding: const EdgeInsets.only(right: 20, left: 20),
               child: Row(
@@ -215,6 +216,7 @@ class PlaceOrderPage extends StatelessWidget {
                               String address = "$street $city $country ";
 
                               await checkoutCubit.placeOrder(
+                                  cartCubit: cartCubit,
                                   address: address,
                                   deliveryMethod:
                                       checkoutCubit.deliveryMethodValue,
@@ -222,7 +224,7 @@ class PlaceOrderPage extends StatelessWidget {
                                       "Master Card ending **$masterCardLastTwoDigit",
                                   totalPrice: cartCubit.totalPrice().toInt(),
                                   carts: cartCubit.getCartIds());
-                              await cartCubit.deleteCartWhileCheckouting();
+
                               checkoutCubit.currentStep = 0;
                               // ignore: use_build_context_synchronously
                               clearAndNavigate(
