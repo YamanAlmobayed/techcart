@@ -1,0 +1,151 @@
+Date : 2024-01-19 23:52:43
+Directory : e:\AndroidStudioProject\techcart\lib
+Total : 75 files,  358 codes, -94 comments, 17 blanks, all 281 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         75 |        358 |        -94 |         17 |        281 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         75 |        358 |        -94 |         17 |        281 |
+| . (Files)                                                                                                            |          1 |          4 |          1 |          1 |          6 |
+| repository                                                                                                           |          1 |          3 |          0 |          0 |          3 |
+| repository\services                                                                                                  |          1 |          3 |          0 |          0 |          3 |
+| shared                                                                                                               |         27 |       -491 |        -12 |        -22 |       -525 |
+| shared (Files)                                                                                                       |          3 |        -93 |         -5 |        -12 |       -110 |
+| shared\gen                                                                                                           |          2 |        114 |         28 |         29 |        171 |
+| shared\router                                                                                                        |          2 |        259 |          0 |         23 |        282 |
+| shared\widgets                                                                                                       |         20 |       -771 |        -35 |        -62 |       -868 |
+| ui                                                                                                                   |         46 |        842 |        -83 |         38 |        797 |
+| ui\auth                                                                                                              |         11 |        122 |        -10 |         -3 |        109 |
+| ui\auth\login                                                                                                        |          3 |         45 |         -5 |          5 |         45 |
+| ui\auth\login (Files)                                                                                                |          1 |         11 |          0 |          1 |         12 |
+| ui\auth\login\cubit                                                                                                  |          1 |         -7 |         -5 |          0 |        -12 |
+| ui\auth\login\widgets                                                                                                |          1 |         41 |          0 |          4 |         45 |
+| ui\auth\password_recovery                                                                                            |          3 |          8 |         -2 |         -1 |          5 |
+| ui\auth\password_recovery (Files)                                                                                    |          1 |         13 |          0 |         -1 |         12 |
+| ui\auth\password_recovery\cubit                                                                                      |          2 |         -5 |         -2 |          0 |         -7 |
+| ui\auth\password_recovery_verification                                                                               |          2 |         51 |          0 |         -1 |         50 |
+| ui\auth\password_recovery_verification (Files)                                                                       |          1 |         10 |          0 |         -5 |          5 |
+| ui\auth\password_recovery_verification\widgets                                                                       |          1 |         41 |          0 |          4 |         45 |
+| ui\auth\password_reset                                                                                               |          1 |          8 |          0 |          0 |          8 |
+| ui\auth\signup                                                                                                       |          2 |         10 |         -3 |         -6 |          1 |
+| ui\auth\signup (Files)                                                                                               |          1 |         14 |          0 |         -5 |          9 |
+| ui\auth\signup\cubit                                                                                                 |          1 |         -4 |         -3 |         -1 |         -8 |
+| ui\cart                                                                                                              |          1 |         -1 |         -2 |         -1 |         -4 |
+| ui\categories                                                                                                        |          4 |         33 |          0 |         12 |         45 |
+| ui\categories (Files)                                                                                                |          2 |          4 |          0 |          0 |          4 |
+| ui\categories\cubit                                                                                                  |          2 |         29 |          0 |         12 |         41 |
+| ui\checkout                                                                                                          |          5 |        186 |         -3 |          4 |        187 |
+| ui\checkout (Files)                                                                                                  |          3 |        -12 |         -3 |         -6 |        -21 |
+| ui\checkout\widgets                                                                                                  |          2 |        198 |          0 |         10 |        208 |
+| ui\favortie                                                                                                          |          1 |          1 |          0 |          0 |          1 |
+| ui\home                                                                                                              |          5 |         95 |         -1 |          3 |         97 |
+| ui\home (Files)                                                                                                      |          1 |         -7 |         -1 |          0 |         -8 |
+| ui\home\cubit                                                                                                        |          2 |        -22 |          0 |         -4 |        -26 |
+| ui\home\widgets                                                                                                      |          2 |        124 |          0 |          7 |        131 |
+| ui\index                                                                                                             |          1 |          2 |          0 |          0 |          2 |
+| ui\orders                                                                                                            |          5 |        130 |          0 |         10 |        140 |
+| ui\orders (Files)                                                                                                    |          2 |        -11 |          0 |         -1 |        -12 |
+| ui\orders\widgets                                                                                                    |          3 |        141 |          0 |         11 |        152 |
+| ui\product                                                                                                           |          5 |        118 |        -48 |          4 |         74 |
+| ui\product (Files)                                                                                                   |          1 |          1 |        -45 |         -4 |        -48 |
+| ui\product\cubit                                                                                                     |          2 |         -2 |         -3 |          0 |         -5 |
+| ui\product\widgets                                                                                                   |          2 |        119 |          0 |          8 |        127 |
+| ui\profile                                                                                                           |          3 |         24 |        -14 |         -2 |          8 |
+| ui\profile (Files)                                                                                                   |          2 |         24 |        -10 |         -2 |         12 |
+| ui\profile\cubit                                                                                                     |          1 |          0 |         -4 |          0 |         -4 |
+| ui\search                                                                                                            |          3 |        104 |         -5 |          9 |        108 |
+| ui\search (Files)                                                                                                    |          1 |          9 |         -5 |          1 |          5 |
+| ui\search\widgets                                                                                                    |          2 |         95 |          0 |          8 |        103 |
+| ui\setup_finder                                                                                                      |          1 |          1 |          0 |          0 |          1 |
+| ui\style                                                                                                             |          1 |         27 |          0 |          2 |         29 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                             | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\AndroidStudioProject\techcart\lib\main.dart                                                                       | Dart     |          4 |          1 |          1 |          6 |
+| e:\AndroidStudioProject\techcart\lib\repository\services\techcart_service.dart                                       | Dart     |          3 |          0 |          0 |          3 |
+| e:\AndroidStudioProject\techcart\lib\shared\constants.dart                                                           | Dart     |         -2 |          0 |         -2 |         -4 |
+| e:\AndroidStudioProject\techcart\lib\shared\dio_helper.dart                                                          | Dart     |        -85 |         -5 |         -8 |        -98 |
+| e:\AndroidStudioProject\techcart\lib\shared\gen\assets.gen.dart                                                      | Dart     |        109 |         19 |         24 |        152 |
+| e:\AndroidStudioProject\techcart\lib\shared\gen\fonts.gen.dart                                                       | Dart     |          5 |          9 |          5 |         19 |
+| e:\AndroidStudioProject\techcart\lib\shared\router\router.dart                                                       | Dart     |        238 |          0 |          4 |        242 |
+| e:\AndroidStudioProject\techcart\lib\shared\router\routes.dart                                                       | Dart     |         21 |          0 |         19 |         40 |
+| e:\AndroidStudioProject\techcart\lib\shared\utils.dart                                                               | Dart     |         -6 |          0 |         -2 |         -8 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\cart_item.dart                                                   | Dart     |          6 |          0 |          0 |          6 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\color_toggle_button.dart                                         | Dart     |        -43 |          0 |         -4 |        -47 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\custom_page_route.dart                                           | Dart     |        -17 |          0 |         -4 |        -21 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\default_formfield.dart                                           | Dart     |          1 |          0 |          0 |          1 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\default_gridview_item.dart                                       | Dart     |          2 |          0 |          0 |          2 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\home_category_item.dart                                          | Dart     |        -54 |        -36 |         -5 |        -95 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\home_product_item.dart                                           | Dart     |        -48 |          0 |         -4 |        -52 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\my_order_card.dart                                               | Dart     |        -43 |          0 |         -4 |        -47 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\navigate_to_all_categories_button.dart                           | Dart     |          8 |          1 |          0 |          9 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\option_toggle_button.dart                                        | Dart     |        -33 |          0 |         -4 |        -37 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\order_details_item.dart                                          | Dart     |        -37 |          0 |         -3 |        -40 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\order_product_list.dart                                          | Dart     |        -53 |          0 |         -4 |        -57 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\otp_verification_form.dart                                       | Dart     |        -40 |          0 |         -4 |        -44 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\place_order_button.dart                                          | Dart     |        -36 |          0 |         -4 |        -40 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\place_order_item.dart                                            | Dart     |       -161 |          0 |         -6 |       -167 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\reviews_item.dart                                                | Dart     |        -82 |          0 |         -4 |        -86 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\search_item.dart                                                 | Dart     |        -78 |          0 |         -4 |        -82 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\search_list.dart                                                 | Dart     |        -24 |          0 |         -4 |        -28 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\signup_login_header.dart                                         | Dart     |        -40 |          0 |         -4 |        -44 |
+| e:\AndroidStudioProject\techcart\lib\shared\widgets\text_formfield_label.dart                                        | Dart     |          1 |          0 |          0 |          1 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\login\cubit\login_cubit.dart                                            | Dart     |         -7 |         -5 |          0 |        -12 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\login\login_page.dart                                                   | Dart     |         11 |          0 |          1 |         12 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\login\widgets\signup_login_header.dart                                  | Dart     |         41 |          0 |          4 |         45 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\password_recovery\cubit\password_recovery_cubit.dart                    | Dart     |         -8 |         -2 |         -1 |        -11 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\password_recovery\cubit\password_recovery_state.dart                    | Dart     |          3 |          0 |          1 |          4 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\password_recovery\password_recovery_page.dart                           | Dart     |         13 |          0 |         -1 |         12 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\password_recovery_verification\password_recovery_verification_page.dart | Dart     |         10 |          0 |         -5 |          5 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\password_recovery_verification\widgets\otp_verification_form.dart       | Dart     |         41 |          0 |          4 |         45 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\password_reset\password_reset_page.dart                                 | Dart     |          8 |          0 |          0 |          8 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\signup\cubit\signup_cubit.dart                                          | Dart     |         -4 |         -3 |         -1 |         -8 |
+| e:\AndroidStudioProject\techcart\lib\ui\auth\signup\signup_page.dart                                                 | Dart     |         14 |          0 |         -5 |          9 |
+| e:\AndroidStudioProject\techcart\lib\ui\cart\cart_page.dart                                                          | Dart     |         -1 |         -2 |         -1 |         -4 |
+| e:\AndroidStudioProject\techcart\lib\ui\categories\categories_page.dart                                              | Dart     |          2 |          0 |          0 |          2 |
+| e:\AndroidStudioProject\techcart\lib\ui\categories\category_page.dart                                                | Dart     |          2 |          0 |          0 |          2 |
+| e:\AndroidStudioProject\techcart\lib\ui\categories\cubit\categories_cubit.dart                                       | Dart     |         17 |          0 |          4 |         21 |
+| e:\AndroidStudioProject\techcart\lib\ui\categories\cubit\categories_state.dart                                       | Dart     |         12 |          0 |          8 |         20 |
+| e:\AndroidStudioProject\techcart\lib\ui\checkout\checkout_steps_page.dart                                            | Dart     |          2 |          0 |         -7 |         -5 |
+| e:\AndroidStudioProject\techcart\lib\ui\checkout\congratulation_page.dart                                            | Dart     |          6 |         -3 |          0 |          3 |
+| e:\AndroidStudioProject\techcart\lib\ui\checkout\place_order_page.dart                                               | Dart     |        -20 |          0 |          1 |        -19 |
+| e:\AndroidStudioProject\techcart\lib\ui\checkout\widgets\place_order_button.dart                                     | Dart     |         36 |          0 |          4 |         40 |
+| e:\AndroidStudioProject\techcart\lib\ui\checkout\widgets\place_order_item.dart                                       | Dart     |        162 |          0 |          6 |        168 |
+| e:\AndroidStudioProject\techcart\lib\ui\favortie\favorite_page.dart                                                  | Dart     |          1 |          0 |          0 |          1 |
+| e:\AndroidStudioProject\techcart\lib\ui\home\cubit\home_cubit.dart                                                   | Dart     |         -7 |          0 |          3 |         -4 |
+| e:\AndroidStudioProject\techcart\lib\ui\home\cubit\home_state.dart                                                   | Dart     |        -15 |          0 |         -7 |        -22 |
+| e:\AndroidStudioProject\techcart\lib\ui\home\home_page.dart                                                          | Dart     |         -7 |         -1 |          0 |         -8 |
+| e:\AndroidStudioProject\techcart\lib\ui\home\widgets\home_category_item.dart                                         | Dart     |         75 |          0 |          3 |         78 |
+| e:\AndroidStudioProject\techcart\lib\ui\home\widgets\home_product_item.dart                                          | Dart     |         49 |          0 |          4 |         53 |
+| e:\AndroidStudioProject\techcart\lib\ui\index\index_page.dart                                                        | Dart     |          2 |          0 |          0 |          2 |
+| e:\AndroidStudioProject\techcart\lib\ui\orders\order_page.dart                                                       | Dart     |         -1 |          0 |         -1 |         -2 |
+| e:\AndroidStudioProject\techcart\lib\ui\orders\orders_page.dart                                                      | Dart     |        -10 |          0 |          0 |        -10 |
+| e:\AndroidStudioProject\techcart\lib\ui\orders\widgets\my_order_card.dart                                            | Dart     |         47 |          0 |          4 |         51 |
+| e:\AndroidStudioProject\techcart\lib\ui\orders\widgets\order_details_item.dart                                       | Dart     |         37 |          0 |          3 |         40 |
+| e:\AndroidStudioProject\techcart\lib\ui\orders\widgets\order_product_list.dart                                       | Dart     |         57 |          0 |          4 |         61 |
+| e:\AndroidStudioProject\techcart\lib\ui\product\cubit\product_cubit.dart                                             | Dart     |          1 |         -3 |          1 |         -1 |
+| e:\AndroidStudioProject\techcart\lib\ui\product\cubit\product_state.dart                                             | Dart     |         -3 |          0 |         -1 |         -4 |
+| e:\AndroidStudioProject\techcart\lib\ui\product\product_page.dart                                                    | Dart     |          1 |        -45 |         -4 |        -48 |
+| e:\AndroidStudioProject\techcart\lib\ui\product\widgets\option_toggle_button.dart                                    | Dart     |         34 |          0 |          4 |         38 |
+| e:\AndroidStudioProject\techcart\lib\ui\product\widgets\reviews_item.dart                                            | Dart     |         85 |          0 |          4 |         89 |
+| e:\AndroidStudioProject\techcart\lib\ui\profile\cubit\profile_cubit.dart                                             | Dart     |          0 |         -4 |          0 |         -4 |
+| e:\AndroidStudioProject\techcart\lib\ui\profile\edit_profile_page.dart                                               | Dart     |         23 |          0 |         -1 |         22 |
+| e:\AndroidStudioProject\techcart\lib\ui\profile\profile_page.dart                                                    | Dart     |          1 |        -10 |         -1 |        -10 |
+| e:\AndroidStudioProject\techcart\lib\ui\search\search_page.dart                                                      | Dart     |          9 |         -5 |          1 |          5 |
+| e:\AndroidStudioProject\techcart\lib\ui\search\widgets\search_item.dart                                              | Dart     |         71 |          0 |          4 |         75 |
+| e:\AndroidStudioProject\techcart\lib\ui\search\widgets\search_list.dart                                              | Dart     |         24 |          0 |          4 |         28 |
+| e:\AndroidStudioProject\techcart\lib\ui\setup_finder\setup_finder_page.dart                                          | Dart     |          1 |          0 |          0 |          1 |
+| e:\AndroidStudioProject\techcart\lib\ui\style\app_style.dart                                                         | Dart     |         27 |          0 |          2 |         29 |
+| Total                                                                                                                |          |        358 |        -94 |         17 |        281 |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
