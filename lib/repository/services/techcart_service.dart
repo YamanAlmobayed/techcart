@@ -16,7 +16,7 @@ import 'package:techcart/shared/constants.dart';
 class TechcartService {
   final _dio = Dio(BaseOptions(
     // baseUrl: 'http://10.0.2.2:8000/techcart/',
-    baseUrl: 'http://192.168.1.113:8000/techcart/',
+    baseUrl: 'https://yaman233.pythonanywhere.com/techcart/',
     headers: {
       'lang': 'en',
     },

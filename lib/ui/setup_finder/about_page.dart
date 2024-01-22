@@ -13,7 +13,7 @@ class SetupFinderAboutPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Text(
-          'Setup Finder is an expert system developed by Yaman Almobayed and Yazan Shakhasiro that guide the user to find the best Desktop that fits his need based on a questions that don’t require any expertise in the tech world.',
+          'Setup Finder is an expert system developed by Yaman Almobayed and Yazan Shakhasiro that guide the user to find the best Desktop that fits his need based on a questions that don’t require any expertise in the tech world.\n Currently the backend hosted on a free hosting service so setup finder may not work properly.',
           style: TextStyle(fontSize: 40.0.sp),
         ),
       ),
